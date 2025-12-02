@@ -114,6 +114,50 @@
         </p>
       </td>
     </tr> -->
+    <tr onmouseout="paper2_stop()" onmouseover="paper2_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <!-- <div class="one">
+              <div class="two" id='paper2_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/lego_demo.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video></div> -->
+        <img src='images/placeholder.jpg' width="160">
+      </div>
+      <script type="text/javascript">
+        function paper2_start() {
+          document.getElementById('paper2_image').style.opacity = "1";
+        }
+
+        function paper2_stop() {
+          document.getElementById('paper2_image').style.opacity = "0";
+        }
+        paper2_stop()
+      </script>
+    </td>
+    <td style="padding:20px;width:75%;vertical-align:middle">
+      <a href="https://arxiv.org/abs/2403.18771v2">
+        <span class="papertitle">RExBench: Can coding agents autonomously implement AI research extensions?</span>
+      </a>
+      <br>
+      Nicholas Edwards*,
+      Yukyung Lee*,
+      Yujun(Audrey) Mao,
+      <strong>Yulu Qin</strong>,
+      Sebastian Schuster†,
+      Najoung Kim†
+      <br>
+      <em>Under Review</em>
+      <br>
+      <a href="https://github.com/tinlaboratory/RexBench">code</a>
+      <p></p>
+      <p>
+        We designed a benchmark to test whether coding agents can autonomously implement extensions to existing AI research.
+      </p>
+      <p style="font-size: smaller;">
+        * and † indicate equal contribution
+      </p>
+    </td>
+    </tr>
     <tr onmouseout="paper3_stop()" onmouseover="paper3_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <!-- <div class="one">
@@ -145,7 +189,6 @@
       <br>
       <em>CogSci 2024</em>
       <br>
-      <a href="https://arxiv.org/abs/2402.07899">arXiv</a>
       <p></p>
       <p>
         We trained LSTM and Transformer-based models on single-child-directed speech to examine what syntactic and semantic knowledge they can learn and how well they generalize
