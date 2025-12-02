@@ -114,6 +114,54 @@
         </p>
       </td>
     </tr> -->
+    <tr onmouseout="paper1_stop()" onmouseover="paper1_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <!-- <div class="one">
+              <div class="two" id='paper1_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/lego_demo.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video></div> -->
+        <img src='images/taxonomigqa.png' width="160">
+      </div>
+      <script type="text/javascript">
+        function paper1_start() {
+          document.getElementById('paper1_image').style.opacity = "1";
+        }
+
+        function paper1_stop() {
+          document.getElementById('paper1_image').style.opacity = "0";
+        }
+        paper1_stop()
+      </script>
+    </td>
+    <td style="padding:20px;width:75%;vertical-align:middle">
+      <a href="https://taxonomigqa.github.io">
+        <span class="papertitle">Vision-and-language training helps deploy taxonomic knowledge but does not fundamentally alter it</span>
+      </a>
+      <br>
+      <strong>Yulu Qin</strong>*,
+      Dheeraj Varghese*,
+      Adam Dahlgren Lindström,
+      Lucia Donatelli,
+      Kanishka Misra†,
+      Najoung Kim†
+      <br>
+      <em>NeurIPS 2025</em>
+      <br>
+      <a href="https://taxonomigqa.github.io">project page</a>
+      /
+      <a href="https://github.com/tinlaboratory/taxonomigqa">code</a>
+      /
+      <a href="data/neurips_poster.pdf">poster</a>
+      <p></p>
+      <p>
+        We designed a taxonomy-informed GQA benchmark and found that vision-language models outperform text-only models; vision training improves how models use taxonomic information without fundamentally changing the underlying knowledge.
+      </p>
+      <p style="font-size: smaller;">
+        * and † indicate equal contribution
+      </p>
+    </td>
+    </tr>
     <tr onmouseout="paper2_stop()" onmouseover="paper2_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
             <!-- <div class="one">
@@ -121,7 +169,7 @@
               <source src="images/lego_demo.mov" type="video/mp4">
               Your browser does not support the video tag.
             </video></div> -->
-        <img src='images/placeholder.jpg' width="160">
+        <img src='images/RexBench-pic.png' width="160">
       </div>
       <script type="text/javascript">
         function paper2_start() {
